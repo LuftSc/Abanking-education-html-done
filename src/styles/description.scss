@@ -1,0 +1,46 @@
+.description {
+    
+    margin-left: 148px;
+    margin-right: 149px;
+
+    &__img {
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    
+    &__salutation {
+        font-size: 44px;
+        color: #21243D;
+        margin-bottom: 40px;
+    }
+
+    &__about {
+        width: 497px;
+        font-size: 16px;
+        margin-bottom: 38px;
+        color: #21243D;
+        margin-top: 0px;
+    }
+
+   &__container {
+        margin-top: 114px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+   }
+
+   &__about-wrapper {
+        display: grid;
+        grid-template-rows: 1fr 0.5fr 0.5fr;
+        margin-left: 20%;
+   }
+
+   &__download {
+        width: 208px;
+        height: 47px;
+        border-radius: 2px;
+        color: white;
+        background-color: #FF6464;
+        font-size: 20px;
+        font-weight: 500;
+   }
+}

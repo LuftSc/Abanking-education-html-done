@@ -1,0 +1,70 @@
+.posts {
+
+    background-color: #EDF7FA;
+
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 5%;
+    }
+
+    &__design {
+        margin-left: 40%;
+        width: 418px;
+        height: 295px;
+        background-color: white;
+        color: #21243D;
+        margin-bottom: 30px;
+    }
+
+    &__figma {
+        color: #21243D;
+        width: 418px;
+        height: 295px;
+        background-color: white;
+    }
+
+    &__link {
+        color: #21243D;
+        width: 418px;
+        height: 295px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__name{
+        margin-left: 37%;
+        padding: 20px 20px 20px 7px;
+    }
+
+    &__reference {
+        margin-left: 45%;
+        padding-bottom: 20px;
+    }
+
+    &__items {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__description {
+        width: 328px;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    &__title {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 26px;
+    }
+
+    &__subtitle {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+    }
+}

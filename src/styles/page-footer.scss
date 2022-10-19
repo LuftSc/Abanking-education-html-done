@@ -1,0 +1,19 @@
+.page-footer {
+
+   &__wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        justify-content: center;
+        margin-top: 140px;
+   }
+
+   &__copyright {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 14px;
+        color: #21243D;
+        margin-bottom: 55px;
+   }
+}
